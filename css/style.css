@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+ body {
+    font-family:'PT Sans', sans-serif;
+}
+header {
+    height: 64px;
+    box-shadow: 0px 2px 4px 0px #3FC4DD;
+}
+header p.logo {
+    background: url('../images/map_48x48.png') 2px 6px no-repeat;
+    height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2AC0F0;
+    padding-left: 60px;
+    margin-left: 10px;
+}
+aside {
+    position: absolute;
+    top: 80px;
+    width: 300px;
+    left: 10px;
+    bottom: 10px;
+    box-shadow: 0px 0px 4px 0px #3FC4DD;
+    padding: 10px;
+    display: none;
+}
+#searchForm .form-group {
+    margin-bottom: 5px;
+}
+#searchBtn {
+    margin: 0 auto;
+    width: 100px;
+    display: block;
+}
+#searchContainer {
+    border-top: 1px solid #3FC4DD;
+    bottom: 4px;
+    position: absolute;
+    top: 90px;
+    left: 4px;
+    right: 4px;
+    overflow: auto;
+}
+#searchContainer ul {
+    list-style: none;
+    padding: 4px;
+    margin: 0px;
+}
+#searchContainer ul>li {
+    height: 40px;
+    padding: 4px;
+    margin: 2px 0px;
+}
+#searchContainer ul>li:hover {
+    background-color: #31A7CC;
+    color: #FFFFFF;
+}
+#searchContainer ul>li i {
+    float: left;
+    margin-top: 6px;
+}
+#searchContainer ul>li p.title {
+    margin: 0 0 0 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#searchContainer ul>li p.address {
+    margin: 0 0 0 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 85%;
+    color: #B8B8B8;
+}
+#searchContainer p.dummy-text {
+    position: absolute;
+    top: 33%;
+    text-align: center;
+    font-size: 16px;
+    color: #2097AD;
+    text-shadow: 1px 1px #BAF4FF;
+}
+section {
+    left: 10px;
+    position: absolute;
+    top: 80px;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 4px 0px #3FC4DD;
+}
+footer {
+}
+.icon_sprites {
+    background: url(../images/markers/icon_sprites.png) no-repeat;
+}
+.home {
+    width: 32px;
+    height: 37px;
+    background-position: 0 0;
+}
+.icon_1 {
+    width: 27px;
+    height: 27px;
+    background-position: -34px 0;
+}
+.icon_2 {
+    width: 27px;
+    height: 27px;
+    background-position: -63px 0;
+}
+.icon_3 {
+    width: 27px;
+    height: 27px;
+    background-position: -92px 0;
+}
+.icon_4 {
+    width: 27px;
+    height: 27px;
+    background-position: -121px 0;
+}
+.icon_5 {
+    width: 27px;
+    height: 27px;
+    background-position: -150px 0;
+}
+.icon_6 {
+    width: 27px;
+    height: 27px;
+    background-position: -179px 0;
+}
+.icon_7 {
+    width: 27px;
+    height: 27px;
+    background-position: -208px 0;
+}
+.icon_8 {
+    width: 27px;
+    height: 27px;
+    background-position: -237px 0;
+}
+.icon_9 {
+    width: 27px;
+    height: 27px;
+    background-position: -266px 0;
+}
+.icon_10 {
+    width: 27px;
+    height: 27px;
+    background-position: -295px 0;
+}
+.icon_11 {
+    width: 27px;
+    height: 27px;
+    background-position: -34px -29px;
+}
+.icon_12 {
+    width: 27px;
+    height: 27px;
+    background-position: -63px -29px;
+}
+.icon_13 {
+    width: 27px;
+    height: 27px;
+    background-position: -92px -29px;
+}
+.icon_14 {
+    width: 27px;
+    height: 27px;
+    background-position: -121px -29px;
+}
+.icon_15 {
+    width: 27px;
+    height: 27px;
+    background-position: -150px -29px;
+}
+.icon_16 {
+    width: 27px;
+    height: 27px;
+    background-position: -179px -29px;
+}
+.icon_17 {
+    width: 27px;
+    height: 27px;
+    background-position: -208px -29px;
+}
+.icon_18 {
+    width: 27px;
+    height: 27px;
+    background-position: -237px -29px;
+}
+.icon_19 {
+    width: 27px;
+    height: 27px;
+    background-position: -266px -29px;
+}
+.icon_20 {
+    width: 27px;
+    height: 27px;
+    background-position: -295px -29px;
+}
+@media (min-width: 768px) {
+    section {
+        left: 330px;
+    }
+    aside {
+        display: block;
+    }
+}
